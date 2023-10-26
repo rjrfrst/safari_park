@@ -50,4 +50,16 @@ INSERT INTO animal (name, type, age, enclosure_id) VALUES ('Simba', 'Feline', 1,
 
 INSERT INTO assignment (employee_id, enclosure_id, day) VALUES (2, 3, 'Monday');
 INSERT INTO assignment (employee_id, enclosure_id, day) VALUES (1, 2, 'Tuesday');
-INSERT INTO assignment (employee_id, enclosure_id, day) VALUES (2, 4, 'Wednesday');
+INSERT INTO assignment (employee_id, enclosure_id, day) VALUES (2, 4, 'Wednesday'); 
+
+
+-- SELECT animal.name
+-- FROM animal 
+-- WHERE animal.enclosure_id = 1; 
+
+-- SELECT staff.name
+-- FROM staff 
+-- INNER JOIN assignment 
+-- ON staff.id = assignment.employee_id
+-- WHERE assignment.enclosure_id = ;
+-- ; 
